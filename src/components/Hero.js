@@ -1,10 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import banner1 from '../assets/1.jpg';
 import banner3 from '../assets/3with.png';
 import banner4 from '../assets/4with.png';
 
 const Hero = () => {
   // Banner data with unique content and styling for each slide
   const banners = [
+    {
+      image: banner1,
+      heading: "",
+      subtext: "",
+      buttonText: "",
+      styles: {
+        position: "", // left, center, right
+        textAlign: "", // text alignment within the container
+        headingColor: "",
+        subtextColor: "",
+        buttonColor: "",
+        overlayColor: "",
+        headingSize: "",
+        containerWidth: "",
+        containerPosition: "" // position of container on screen
+      },
+    },
     {
       image: banner3,
       heading: "NEW ARRIVALS",
