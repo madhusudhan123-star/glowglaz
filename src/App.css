@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Add some global font styles to enhance typography */
+@layer base {
+  h1, h2, h3 {
+    @apply font-playfair;
+  }
+  
+  blockquote {
+    @apply font-garamond italic;
+  }
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Create space for the fixed navbar when it appears */
+.navbar-spacer {
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.navbar-visible .navbar-spacer {
+  height: 88px; /* Match navbar height */
+}
+
+/* Rest of your styles */
