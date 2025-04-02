@@ -1,5 +1,6 @@
 import React from 'react';
 import about from '../assets/about.jpg'
+import about2 from '../assets/about2.jpg'
 
 const About = () => {
   // Key points about why to use the product
@@ -57,7 +58,7 @@ const About = () => {
     aboutImage: about,
 
     // Science behind section image
-    scienceImage: "https://img.freepik.com/free-photo/top-view-natural-ingredients-herbal-medicine_23-2148313424.jpg",
+    scienceImage: about2,
     
     // Key ingredients images
     ingredients: [

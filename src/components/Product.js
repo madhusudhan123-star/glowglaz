@@ -23,8 +23,8 @@ const Product = () => {
       name: "PSORIGO Body Wash",
       description: "Gentle cleansing body wash with aloe vera, papaya extract, and amla to soothe and nourish psoriasis-prone skin while removing dead skin cells.",
       image: bodyWash,
-      price: 750,
-      displayPrice: "₹750",
+      price: 1200,
+      displayPrice: "₹1,200",
       benefits: ["Gentle cleansing", "Removes dead skin", "pH balanced", "Fragrance-free"],
       ingredients: ["Aloe Vera", "Papaya Extract", "Amla", "Glycerin"]
     },
@@ -33,8 +33,8 @@ const Product = () => {
       name: "PSORIGO Oil",
       description: "Specialized psoriasis oil with bakuchiol, neem oil, and jojoba oil to reduce itching, flaking, and redness while promoting skin healing.",
       image: oil,
-      price: 1200,
-      displayPrice: "₹1,200",
+      price: 750,
+      displayPrice: "₹750",
       benefits: ["Reduces itching", "Promotes healing", "Diminishes redness", "Fast-absorbing"],
       ingredients: ["Bakuchiol", "Neem Oil", "Jojoba Oil", "Vitamin E"]
     }
